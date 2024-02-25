@@ -1,0 +1,118 @@
+.img1{
+    margin-left: 5%;
+}
+
+.img2{
+    margin-left: 70%;
+}
+
+.img3{
+    margin-left: 3%;
+}
+
+.img4{
+    margin-left: 3%;
+}
+
+.img5{
+    margin-left: 3%;
+}
+
+main{
+    display: flex;
+}
+
+.indice{
+    background-color: #fafafa;
+    min-width: 22vw;
+    max-width: 22vw;
+    padding-left: 5%;
+    font-weight: bold;
+    min-height: 90vh;
+
+}
+
+.entrada{
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+.hoje{
+    margin-top: 10%;
+}
+
+.vencido{
+    margin-top: 10%;
+}
+
+h2{
+    font-size: 15px;
+    display: inline;
+    font-weight: bold;
+}
+
+.indice img{
+    display: inline;
+    margin-right: 7%;
+}
+
+.principal {
+    min-width: 50%;
+    max-width: 50%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container-tarefas{
+    width: 100%;
+}
+
+.tarefa{
+    width: 100%;
+    border: 0.5px solid #E5E5E5;
+    margin-top: 04%; 
+    padding: 2% 0 0 4%;
+    display: grid ; 
+    /* grid-template-rows: 100px 200px;   */
+    grid-template-columns: 0.5fr 8fr 3fr
+}
+
+.bolinha {
+    margin-right: 15px;
+}
+
+.bolinhaPreenchida {
+    display: none;
+}
+
+.data{
+    display: flex;
+    background-color: #D314081A;
+    color: red;
+    max-width: 25%;
+    max-height: 20%;
+    margin-top: -2%;
+}
+
+.data div{
+    margin-left: 10px;
+}
+
+.hover {
+    display: none;
+    margin-top: 24% ;
+    margin-left: 15%;
+}
+
+.hover img {
+    margin-right: 15%;
+}
+
+.checkbox{
+    cursor: pointer;
+}

@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+body {
+    background-color: black;
+}
+
+/*CSS do Index*/
+
+h1, h2, h3, p {
+    color: white;
+}
+
+.cabecalho__principal {
+    height: 400px;
+    background-color: #222222;
+    display: flex;
+}
+
+.imagem1 {
+    margin: auto auto;
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+    padding-left: 10px;
+}
+
+.imagem1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imagem2 {
+    margin: auto auto;
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.imagem2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cabecalho {
+    min-width: 900px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.cabecalho__login {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px 0;
+}
+
+.cabecalho__login h3{
+    color: white;
+    font-size: 27px;
+}
+
+.cabecalho__login span{
+    color:#09c3db
+}
+
+.cabecalho__login button{
+    padding: 10px;
+    width: 70px;
+    border: none;
+    color: white;
+    background-color: #09c3db;
+    border-radius: 5px 20px;
+    
+    cursor: pointer;
+}
+
+.cabecalho__login button:hover {
+    transition: 0.3s;
+    color: black;
+    background-color: #06afc5;
+    width: 100px;
+}
+
+.cabecalho__banner {
+    text-align: center;
+    color: white;
+    margin-top: 75px;
+}
+
+.cabecalho__banner h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.cabecalho__banner p {
+    text-align: center;
+}
+
+.titulo__principal {
+    text-align: center;
+    margin: 10px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.galeria__principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.galeria__bloco {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.galeria__bloco img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.galeria__bloco:hover {
+    transform: scale(1.05);
+    cursor: pointer
+}
+
+.conteudo__principal h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.conteudo__principal p {
+    margin-bottom: 15px;
+    text-align: justify;
+    line-height: 26px;
+    font-weight: lighter;
+}
+
+.rodape {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape p {
+    font-weight: bold;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons {
+    font-size: 26px;
+}
+
+/*CSS do Cadastro e Login*/
+
+.container__formulario {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.capa__formulario {
+    background-image: url(https://blogs.correio24h.com.br/mesalte/wp-content/uploads/2018/12/jao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.capa2__formulario {
+    background-image: url(https://veja.abril.com.br/wp-content/uploads/2022/06/jao-fotos-rafaelstrabelli-239-copiar.png?w=1280&h=720&crop=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.formulario {
+    min-width: 700px;
+    margin: 0 auto;
+}
+
+.formulario form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.formulario h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.formulario h1 span{
+    color: #09c3db;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #a7a7a7;
+    background-color: black;
+    color: white;
+}
+
+.cadastro__separar {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cadastrar button {
+    padding: 10px;
+    border-radius: 5px 20px;
+    width: 130px;
+    border:none;
+    cursor: pointer;
+    background-color: #09c3db;
+    color: white
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.cadastrar a {
+    color: white;
+    text-decoration: none;
+}
+
+/*CSS das Musicas*/
+
+.principal__albuns {
+    max-width: none;
+    margin: 0 5%
+}
+
+.galeria__albuns {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.albuns__bloco {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.albuns__bloco img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.albuns__bloco:hover {
+    transform: scale(1.05);
+    cursor: pointer
+}
+
+/*CSS da Música*/
+
+.container__musica {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.capa {
+    background-image: url(https://akamai.sscdn.co/uploadfile/letras/albuns/4/1/8/3/652441534536983.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.letra {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.letra h1 {
+    text-align: center;
+    margin: 10px 0;
+    color: #a7a7a7;
+    margin-bottom: 30px;
+}
+
+.letra h1 span{
+    color: #a7a7a7;
+    margin-bottom: 30px ;
+}
+
+.letra p {
+    text-align: center;
+    color: #a7a7a7;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    
+}

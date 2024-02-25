@@ -1,0 +1,84 @@
+main {
+    padding: 3vw;
+    display: flex;
+}
+
+.cadastro{
+    min-width: 47vw;
+    max-width: 47vw;
+    padding: 3%;
+    padding-top: 4%;
+}
+
+h1{
+    margin-bottom: 6%;
+    font-size: 30px;
+}
+
+form{
+    width: 100%;
+}
+
+label{
+    margin-bottom: 1vh;
+}
+
+input {
+    display: block;
+    margin-bottom:1vh ;
+    width: 100%;
+    padding: 1.5% ;
+    border: 1px solid #E5E5E5EE;
+    outline: none ;
+    color: #8C8A97;
+}
+
+.decoracao{
+    min-width: 47vw;
+    max-width: 47vw;
+    min-height: 87.95vh;
+    background-color: #F7F7F7;
+}
+
+.rock{
+    width: 48px;
+    height: 48px;
+    top: 91px;
+    left: 96px;
+    margin: 10% 0 0 10%;
+}
+
+.texto{
+    padding: 0 9%;
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+.texto h2{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.img{
+    margin-left: 9%;
+}
+
+.separarLogin{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5% ;
+}
+
+.separarLogin a{
+    text-decoration: none;
+    color: #8C8A97;
+    
+}
+
+.separarLogin button{
+    padding: 1.5% 8%;
+    background-color: black;
+    color: white;
+}
+
+

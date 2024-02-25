@@ -1,0 +1,64 @@
+main{
+    display: flex;
+    background-color: #000000;
+}
+
+.principal{
+     height: 100vh;
+     min-width: 75vw;
+     max-width: 75vw;
+}
+
+h1 {
+    font-size: 134px;
+    font-weight: bold;
+    margin-top: 11%;
+    margin-left: 7%;
+    margin-bottom: 10%;
+}
+
+.bolinha{
+    width: 260px;
+    height: 20px;
+    top: 867.01px;
+    left: 142.98px;
+    margin-left: 7%;
+}
+
+.secundario {
+    background-color: #ffffff;
+    height: 100vh;
+    min-width: 25vw;
+    max-width: 25vw;
+    border-radius: 10% 0 0 0;
+}
+
+.setinha {
+    margin: 30% 0 20% 15%;
+    width: 48.37px;
+    height: 41.65px;
+    top: 142.71px;
+    left: 1479.57px;
+
+}
+
+h2{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 50px;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-bottom: 50%;
+}
+
+.secundario p {
+    margin-left: 15%;
+    font-size: 20px;
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: space-between;
+    gap: 30;
+}
